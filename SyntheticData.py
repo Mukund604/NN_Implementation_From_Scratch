@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 np.random.seed(0)
 
-def spiral_data(points, classes):
+def createSyntheticData(points, classes):
     X = np.zeros((points*classes, 2))
     y = np.zeros(points*classes, dtype='uint8')
     for class_number in range(classes):
@@ -15,11 +15,10 @@ def spiral_data(points, classes):
     return X, y
 
 
-X, y = spiral_data(100, 3)
+X, y = createSyntheticData(100, 3)
 plt.figure(figsize=(8, 6))
 plt.scatter(X[:, 0], X[:, 1], c=y, cmap="viridis", s=50, alpha=0.7)
 plt.xlabel("X1")
 plt.ylabel("X2")
 plt.title("Synthetic Dataset Scatter Plot")
-plt.legend()
 plt.show()
