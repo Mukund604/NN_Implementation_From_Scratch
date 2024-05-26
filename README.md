@@ -1,4 +1,4 @@
-# Spiral Neural Network from Scratch
+# Convolutional Neural Network from Scratch
 
 This repository contains the implementation of a simple neural network from scratch using NumPy. The neural network is designed to classify data points in a spiral pattern. The network consists of a dense layer followed by a ReLU activation function.
 
