@@ -1,5 +1,4 @@
 import numpy as np
-import matplotlib.pyplot as plt
 
 np.random.seed(0)
 
@@ -15,10 +14,13 @@ def createSyntheticData(points, classes):
     return X, y
 
 
-X, y = createSyntheticData(100, 3)
-plt.figure(figsize=(8, 6))
-plt.scatter(X[:, 0], X[:, 1], c=y, cmap="viridis", s=50, alpha=0.7)
-plt.xlabel("X1")
-plt.ylabel("X2")
-plt.title("Synthetic Dataset Scatter Plot")
-plt.show()
+if __name__ == "__main__":
+    import matplotlib.pyplot as plt
+
+    X, y = createSyntheticData(100, 3)
+    plt.figure(figsize=(8, 6))
+    plt.scatter(X[:, 0], X[:, 1], c=y, cmap="viridis", s=50, alpha=0.7)
+    plt.xlabel("X1")
+    plt.ylabel("X2")
+    plt.title("Synthetic Dataset Scatter Plot")
+    plt.show()

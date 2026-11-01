@@ -1,0 +1,276 @@
+{
+  "spiral": {
+    "random_search": 0.39666666666666667,
+    "backprop": 0.96
+  },
+  "rl": {
+    "greedy_steps": [
+      13,
+      13,
+      13,
+      13,
+      13
+    ],
+    "last_50_mean_return": -43.540000000000006
+  },
+  "other": {
+    "ridge_r2": [
+      0.42047749509527244,
+      0.4204774950952725
+    ],
+    "kmeans_ari": [
+      0.6201351808870379,
+      0.6201351808870379
+    ],
+    "gmm_ari": [
+      0.9038742317748124,
+      0.9038742317748124
+    ]
+  },
+  "cnn_digits": [
+    0.9844150417827299,
+    0.007589623562241187
+  ],
+  "classification": [
+    {
+      "algorithm": "Logistic regression",
+      "dataset": "Digits",
+      "scratch": 0.9655075827917055,
+      "scratch_sd": 0.010012289656829442,
+      "sklearn": 0.9694042092231507,
+      "sklearn_sd": 0.009919962174383182,
+      "scratch_seconds": 3.1937029361724854,
+      "sklearn_seconds": 0.1279301643371582
+    },
+    {
+      "algorithm": "Logistic regression",
+      "dataset": "Breast cancer",
+      "scratch": 0.9718832479428661,
+      "scratch_sd": 0.014029573695671007,
+      "sklearn": 0.9789163173420278,
+      "sklearn_sd": 0.014245188025619249,
+      "scratch_seconds": 0.4521901607513428,
+      "sklearn_seconds": 0.0072879791259765625
+    },
+    {
+      "algorithm": "Logistic regression",
+      "dataset": "Wine",
+      "scratch": 0.9831746031746033,
+      "scratch_sd": 0.013740935306558193,
+      "sklearn": 0.9831746031746033,
+      "sklearn_sd": 0.013740935306558193,
+      "scratch_seconds": 0.26820898056030273,
+      "sklearn_seconds": 0.016303062438964844
+    },
+    {
+      "algorithm": "Linear SVM",
+      "dataset": "Digits",
+      "scratch": 0.9504812751470133,
+      "scratch_sd": 0.014405186773783543,
+      "sklearn": 0.9560461157536366,
+      "sklearn_sd": 0.009002275601932517,
+      "scratch_seconds": 4.413031816482544,
+      "sklearn_seconds": 0.9525749683380127
+    },
+    {
+      "algorithm": "Linear SVM",
+      "dataset": "Breast cancer",
+      "scratch": 0.9666200900481291,
+      "scratch_sd": 0.017873261102618603,
+      "sklearn": 0.9683589504735289,
+      "sklearn_sd": 0.011917770620739745,
+      "scratch_seconds": 0.2528500556945801,
+      "sklearn_seconds": 0.004527091979980469
+    },
+    {
+      "algorithm": "Linear SVM",
+      "dataset": "Wine",
+      "scratch": 0.9776190476190477,
+      "scratch_sd": 0.020831783767013237,
+      "sklearn": 0.9831746031746033,
+      "sklearn_sd": 0.013740935306558193,
+      "scratch_seconds": 0.10840702056884766,
+      "sklearn_seconds": 0.002817869186401367
+    },
+    {
+      "algorithm": "k nearest neighbors",
+      "dataset": "Digits",
+      "scratch": 0.9766326214794182,
+      "scratch_sd": 0.006474397229940297,
+      "sklearn": 0.9766326214794182,
+      "sklearn_sd": 0.006474397229940297,
+      "scratch_seconds": 0.3728909492492676,
+      "sklearn_seconds": 0.019575119018554688
+    },
+    {
+      "algorithm": "k nearest neighbors",
+      "dataset": "Breast cancer",
+      "scratch": 0.9648812296227295,
+      "scratch_sd": 0.021461473905943093,
+      "sklearn": 0.9648812296227295,
+      "sklearn_sd": 0.021461473905943093,
+      "scratch_seconds": 0.01756906509399414,
+      "sklearn_seconds": 0.0067138671875
+    },
+    {
+      "algorithm": "k nearest neighbors",
+      "dataset": "Wine",
+      "scratch": 0.9607936507936508,
+      "scratch_sd": 0.013352216409405144,
+      "sklearn": 0.9607936507936508,
+      "sklearn_sd": 0.013352216409405144,
+      "scratch_seconds": 0.002185821533203125,
+      "sklearn_seconds": 0.00834202766418457
+    },
+    {
+      "algorithm": "Gaussian naive Bayes",
+      "dataset": "Digits",
+      "scratch": 0.785719591457753,
+      "scratch_sd": 0.031712394429225015,
+      "sklearn": 0.785719591457753,
+      "sklearn_sd": 0.031712394429225015,
+      "scratch_seconds": 0.009238958358764648,
+      "sklearn_seconds": 0.008961200714111328
+    },
+    {
+      "algorithm": "Gaussian naive Bayes",
+      "dataset": "Breast cancer",
+      "scratch": 0.9297003570874087,
+      "scratch_sd": 0.012407868976686179,
+      "sklearn": 0.9297003570874087,
+      "sklearn_sd": 0.012407868976686179,
+      "scratch_seconds": 0.0021550655364990234,
+      "sklearn_seconds": 0.0026798248291015625
+    },
+    {
+      "algorithm": "Gaussian naive Bayes",
+      "dataset": "Wine",
+      "scratch": 0.9719047619047618,
+      "scratch_sd": 0.0003888078956798682,
+      "sklearn": 0.9719047619047618,
+      "sklearn_sd": 0.0003888078956798682,
+      "scratch_seconds": 0.001377105712890625,
+      "sklearn_seconds": 0.0020530223846435547
+    },
+    {
+      "algorithm": "Decision tree",
+      "dataset": "Digits",
+      "scratch": 0.8497554936552151,
+      "scratch_sd": 0.011056320303648493,
+      "sklearn": 0.8603327143299289,
+      "sklearn_sd": 0.020715291124611155,
+      "scratch_seconds": 1.0174190998077393,
+      "sklearn_seconds": 0.059625864028930664
+    },
+    {
+      "algorithm": "Decision tree",
+      "dataset": "Breast cancer",
+      "scratch": 0.9226828132277596,
+      "scratch_sd": 0.022429649730958543,
+      "sklearn": 0.9262226362366093,
+      "sklearn_sd": 0.021823386682793423,
+      "scratch_seconds": 0.09044599533081055,
+      "sklearn_seconds": 0.01963496208190918
+    },
+    {
+      "algorithm": "Decision tree",
+      "dataset": "Wine",
+      "scratch": 0.9328571428571429,
+      "scratch_sd": 0.05133540453851786,
+      "sklearn": 0.9273015873015874,
+      "sklearn_sd": 0.05128384495961936,
+      "scratch_seconds": 0.014353036880493164,
+      "sklearn_seconds": 0.0032470226287841797
+    },
+    {
+      "algorithm": "Random forest",
+      "dataset": "Digits",
+      "scratch": 0.9738393686165274,
+      "scratch_sd": 0.007613795346215069,
+      "sklearn": 0.9732853605694831,
+      "sklearn_sd": 0.005746484025055335,
+      "scratch_seconds": 17.987680912017822,
+      "sklearn_seconds": 0.7262823581695557
+    },
+    {
+      "algorithm": "Random forest",
+      "dataset": "Breast cancer",
+      "scratch": 0.9561092997981679,
+      "scratch_sd": 0.02144877867019726,
+      "sklearn": 0.9648812296227295,
+      "sklearn_sd": 0.014641217610054874,
+      "scratch_seconds": 1.8512840270996094,
+      "sklearn_seconds": 0.33857297897338867
+    },
+    {
+      "algorithm": "Random forest",
+      "dataset": "Wine",
+      "scratch": 0.9830158730158731,
+      "scratch_sd": 0.013870509380922847,
+      "sklearn": 0.9719047619047618,
+      "sklearn_sd": 0.017572511115045146,
+      "scratch_seconds": 0.5021390914916992,
+      "sklearn_seconds": 0.19244909286499023
+    },
+    {
+      "algorithm": "Gradient boosting",
+      "dataset": "Digits",
+      "scratch": 0.9660538532961931,
+      "scratch_sd": 0.004090748523632571,
+      "sklearn": 0.9654982977406377,
+      "sklearn_sd": 0.003770767345464301,
+      "scratch_seconds": 75.6448221206665,
+      "sklearn_seconds": 17.11004900932312
+    },
+    {
+      "algorithm": "Gradient boosting",
+      "dataset": "Breast cancer",
+      "scratch": 0.9648657040832169,
+      "scratch_sd": 0.01566592330434181,
+      "sklearn": 0.9648657040832168,
+      "sklearn_sd": 0.018378173369351915,
+      "scratch_seconds": 4.7189412117004395,
+      "sklearn_seconds": 1.0524911880493164
+    },
+    {
+      "algorithm": "Gradient boosting",
+      "dataset": "Wine",
+      "scratch": 0.9493650793650794,
+      "scratch_sd": 0.02097041071301207,
+      "sklearn": 0.9493650793650794,
+      "sklearn_sd": 0.02097041071301207,
+      "scratch_seconds": 2.0904860496520996,
+      "sklearn_seconds": 0.596592903137207
+    },
+    {
+      "algorithm": "Neural network (MLP)",
+      "dataset": "Digits",
+      "scratch": 0.9782961931290624,
+      "scratch_sd": 0.004093960016577794,
+      "sklearn": 0.9771897245434851,
+      "sklearn_sd": 0.006879835431089302,
+      "scratch_seconds": 3.7748301029205322,
+      "sklearn_seconds": 3.8881382942199707
+    },
+    {
+      "algorithm": "Neural network (MLP)",
+      "dataset": "Breast cancer",
+      "scratch": 0.9718677224033534,
+      "scratch_sd": 0.015121158169106487,
+      "sklearn": 0.9771464058376029,
+      "sklearn_sd": 0.011912915521715637,
+      "scratch_seconds": 0.8069922924041748,
+      "sklearn_seconds": 1.1257679462432861
+    },
+    {
+      "algorithm": "Neural network (MLP)",
+      "dataset": "Wine",
+      "scratch": 0.9663492063492063,
+      "scratch_sd": 0.0109581305359322,
+      "sklearn": 0.9831746031746033,
+      "sklearn_sd": 0.013740935306558193,
+      "scratch_seconds": 0.16321825981140137,
+      "sklearn_seconds": 0.29630517959594727
+    }
+  ]
+}
